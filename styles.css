@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 body {
   text-align: center;
   font-family: "Mukta", sans-serif;
@@ -56,8 +59,8 @@ p {
 
 .gift-img {
   margin: 20px auto;
-  max-width: 400px;
-  height: 400px;
+  max-width: 430px;
+  height: 420px;
   border: 6px solid #597d7c;
   border-radius: 10px;
   background-image: url("images/gift-cover.jpg");
@@ -95,4 +98,14 @@ footer {
 
 a {
   color: white;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+  .gift-img {
+    width: 300px;
+    height: 300px;
+  }
 }
